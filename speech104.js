@@ -27,6 +27,7 @@ function mouseClicked() {
     console.log(objeto);
      recognize();
     voice.speak(reply);
+    console.log("mod 1916")
     console.log(reply);
      confidence = speechRec.resultConfidence;
      console.log(confidence);
@@ -34,7 +35,7 @@ function mouseClicked() {
   if(confidence > 0.3){
      voice.speak("you said: " + objeto);
      
-     objeto = null;
+    //objeto = null;
     //voice.cancel();
   } else {
      voice.speak( "Sorry ?");
