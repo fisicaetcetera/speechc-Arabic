@@ -3,7 +3,7 @@
 //
   let lang;
   let speechRec;
-  let continuous = true;
+  let continuous = false;
   let voice;
   let reply;
   let myName = "Cassandra";
