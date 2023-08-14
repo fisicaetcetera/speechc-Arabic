@@ -14,6 +14,7 @@
   function setup() {
   noCanvas();
   lang = 'ar-LB';
+    createP("ar-LB");
     console.log("ar-LB");
 } //setup
   
@@ -26,6 +27,7 @@ function mouseClicked() {
      console.log(speechRec);
      objeto = speechRec.resultString;
     console.log(objeto);
+    createP("objeto");
      recognize();
     voice.speak(reply);
     console.log("mod 1916")
@@ -34,7 +36,7 @@ function mouseClicked() {
      console.log(confidence);
      
   if(confidence > 0.3){
-     voice.speak("you said: " + objeto);
+     voice.speak(objeto);
      
     //objeto = null;
     //voice.cancel();
