@@ -31,7 +31,7 @@ function mouseClicked() {
     createP(objeto);
      recognize();
     voice.speak(reply);
-    createP("----------  " + reply);
+    createP(reply +"   : أنت تقول ");
     console.log("mod 1916")
     console.log(reply);
      confidence = speechRec.resultConfidence;
