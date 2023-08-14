@@ -14,7 +14,7 @@
   function setup() {
   noCanvas();
   lang = 'ar-SA';
-    console.log("ar-SA");
+    console.log("ar");
 } //setup
   
 function mouseClicked() {
