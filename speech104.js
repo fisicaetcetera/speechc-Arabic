@@ -47,8 +47,8 @@ function mouseClicked() {
      }
   }
 function recognize(){
-  if (objeto == "مرحبا"){
-      reply = "اهلا";
+  if (objeto == "ابحرم"){
+      reply = "الها";
   } else if (objeto == "what's your name") {
       reply = "I am Cassandra, Enivaldo's personal AI";
   } else if (objeto == "what time is it"){
