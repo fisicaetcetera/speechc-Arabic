@@ -27,7 +27,7 @@ function mouseClicked() {
      console.log(speechRec);
      objeto = speechRec.resultString;
     console.log(objeto);
-    createP("objeto");
+    createP(objeto);
      recognize();
     voice.speak(reply);
     console.log("mod 1916")
