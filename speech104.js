@@ -16,6 +16,7 @@
   lang = 'ar-LB';
     createP("ar-LB");
     console.log("ar-LB");
+    createP("version 08141917");
 } //setup
   
 function mouseClicked() {
