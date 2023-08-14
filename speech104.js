@@ -64,7 +64,7 @@ function recognize(){
     feel();
     reply = feeling;
   } else {
-    reply = "ok";
+    reply = "???  من فضلك";
   }
   }
 
