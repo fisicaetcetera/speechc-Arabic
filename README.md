@@ -1,2 +1,2 @@
 # speechc-Arabic
-Hears, answer, or just repeats what is said in arabic
+Hears, answerس, or just repeats what is said in arabic
