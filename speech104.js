@@ -13,7 +13,8 @@
   
   function setup() {
   noCanvas();
-  lang = 'ar-LB';
+  lang = 'ar-SA';
+    console.log("ar-SA");
 } //setup
   
 function mouseClicked() {
