@@ -16,7 +16,7 @@
   lang = 'ar-LB';
     createP("ar-LB");
     console.log("ar-LB");
-    createP("version 08141939");
+    createP("version 08142046");
 } //setup
   
 function mouseClicked() {
@@ -31,7 +31,7 @@ function mouseClicked() {
     createP(objeto);
      recognize();
     voice.speak(reply);
-    createP(reply +"   : أنت تقول ");
+    createP(reply);
     console.log("mod 1916")
     console.log(reply);
      confidence = speechRec.resultConfidence;
@@ -64,7 +64,7 @@ function recognize(){
     feel();
     reply = feeling;
   } else {
-    reply = "???  من فضلك";
+    reply = "ماذا قلت؟--------------";
   }
   }
 
