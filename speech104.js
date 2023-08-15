@@ -16,7 +16,7 @@
   lang = 'ar-LB';
     createP("ar-LB");
     console.log("ar-LB");
-    createP("version 08142147");
+    createP("version 08142153");
 } //setup
   
 function mouseClicked() {
@@ -50,7 +50,7 @@ function mouseClicked() {
 function recognize(){
   if (objeto == "مرحبا"){
       reply = "-------- " + "اهلا";
-  } else if (objeto == "ما اسمك؟") {
+  } else if (objeto == "ما اسمك") {
       reply = "anā kāsāndarā, althakāʾu aliāṣṭināʿiyyu alshakhṣiyyu li Eniwaldu";
   } else if (objeto == "what time is it"){
       tempo();
