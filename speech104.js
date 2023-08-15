@@ -3,7 +3,7 @@
 //
   let lang;
   let speechRec;
-  let continuous = true;
+  let continuous = false;
   let voice;
   let reply;
   let myName = "Cassandra";
@@ -16,7 +16,7 @@
   lang = 'ar-LB';
     createP("ar-LB");
     console.log("ar-LB");
-    createP("version 08142046");
+    createP("version 08142113");
 } //setup
   
 function mouseClicked() {
