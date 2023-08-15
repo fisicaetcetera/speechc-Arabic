@@ -32,7 +32,7 @@ function mouseClicked() {
      recognize();
     voice.speak(reply);
     createP(reply);
-    console.log("mod 1916")
+    //console.log("mod 1916")
     console.log(reply);
      confidence = speechRec.resultConfidence;
      console.log(confidence);
@@ -50,8 +50,8 @@ function mouseClicked() {
 function recognize(){
   if (objeto == "مرحبا"){
       reply = "-------- " + "اهلا";
-  } else if (objeto == "what's your name") {
-      reply = "I am Cassandra, Enivaldo's personal AI";
+  } else if (objeto == "ما اسمك؟") {
+      reply = "anā kāsāndarā, althakāʾu aliāṣṭināʿiyyu alshakhṣiyyu li Eniwaldu";
   } else if (objeto == "what time is it"){
       tempo();
       reply = "it is " +  hours + " hours and " + minutes+" minutes"; 
