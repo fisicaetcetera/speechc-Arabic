@@ -17,7 +17,7 @@
     createP(lang);
     console.log(lang);
     //p5.Speech(listVoices());
-    createP("version 08161556");
+    createP("نسخة 082025");
 } //setup
   
 function mouseClicked() {
