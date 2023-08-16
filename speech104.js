@@ -45,7 +45,7 @@ function mouseClicked() {
     //voice.cancel();
   } else {
      voice.speak( "Min fadlika karrara");
-     voice.speak( "من فضلك كرر" )
+     createP( "من فضلك كرر" );
      }
   }
 function recognize(){
