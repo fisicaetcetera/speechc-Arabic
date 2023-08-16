@@ -50,7 +50,7 @@ function mouseClicked() {
   }
 function recognize(){
   if (objeto == "مرحبا"){
-      reply = "-------- " + "ARLAN";
+      reply = "AHLAN";
       createP("اهلا");
   } else if (objeto == "مااسمك") {
       reply = "anā Menat, althakāʾu aliāṣṭināʿiyyu alshakhṣiyyu li Eniwaldu";
