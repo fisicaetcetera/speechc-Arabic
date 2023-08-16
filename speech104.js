@@ -14,9 +14,10 @@
   function setup() {
   noCanvas();
   lang = 'ar-LB';
-    createP("ar-LB");
-    console.log("ar-LB");
-    createP("version 08142153");
+    createP(lang);
+    console.log(lang);
+    p5.Speech(listVoices());
+    createP("version 08161556");
 } //setup
   
 function mouseClicked() {
