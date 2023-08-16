@@ -33,7 +33,7 @@ function mouseClicked() {
     createP(objeto);
      recognize();
     voice.speak(reply);
-    createP(reply);
+    //createP(reply);
     //console.log("mod 1916")
     console.log(reply);
      confidence = speechRec.resultConfidence;
@@ -61,7 +61,7 @@ function recognize(){
       reply = "it is " +  hours + " hours and " + minutes+" minutes"; 
   } else if (objeto == "what day is it"){
       reply = "today is " + dia + " of " + mes + " of " + ano;
-  } else if (objeto == "من اين انتي"){
+  } else if (objeto == "من اين انت"){
     reply = "Ana min Natal , Brazil";
     createP("أنا من ناتال، البرازيل");
   }else if (objeto == "كيف حالك"){
