@@ -6,7 +6,7 @@
   let continuous = false;
   let voice;
   let reply;
-  let myName = "Cassandra";
+  let myName = "Menat";
   let dia, mes, ano;
   let hours, minutes, seconds;
   let feeling;
@@ -50,15 +50,16 @@ function mouseClicked() {
   }
 function recognize(){
   if (objeto == "مرحبا"){
-      reply = "-------- " + "اهلا";
-  } else if (objeto == "ما اسمك") {
+      reply = "-------- " + "ARLAN";
+      createP("اهلا");
+  } else if (objeto == "مااسمك") {
       reply = "anā Menat, althakāʾu aliāṣṭināʿiyyu alshakhṣiyyu li Eniwaldu";
   } else if (objeto == "what time is it"){
       tempo();
       reply = "it is " +  hours + " hours and " + minutes+" minutes"; 
   } else if (objeto == "what day is it"){
       reply = "today is " + dia + " of " + mes + " of " + ano;
-  } else if (objeto == "من أين أنت"){
+  } else if (objeto == "من اين انتي"){
     reply = "Ana min Natal , Brazil";
     createP("أنا من ناتال، البرازيل");
   }else if (objeto == "كيف حالك"){
