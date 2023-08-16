@@ -65,7 +65,8 @@ function recognize(){
     feel();
     reply = feeling;
   } else {
-    reply = "...";
+    reply = "";
+    createP("أنا لا أفهم")
   }
   }
 
