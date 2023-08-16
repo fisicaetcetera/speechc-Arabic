@@ -38,14 +38,14 @@ function mouseClicked() {
      confidence = speechRec.resultConfidence;
      console.log(confidence);
      
-  if(confidence > 0.3){
+  if(confidence > 0.5){
      voice.speak(objeto);
      
     //objeto = null;
     //voice.cancel();
   } else {
-     voice.speak( "Sorry ?");
-     voice.speak( "Can you say it again?" )
+     voice.speak( "Min fadlika karrara");
+     voice.speak( "من فضلك كرر" )
      }
   }
 function recognize(){
@@ -58,14 +58,14 @@ function recognize(){
       reply = "it is " +  hours + " hours and " + minutes+" minutes"; 
   } else if (objeto == "what day is it"){
       reply = "today is " + dia + " of " + mes + " of " + ano;
-  } else if (objeto == "where are you from"){
-    reply = "I am from Nat al , Brazil";
-  }else if (objeto == "how are you"){
+  } else if (objeto == "من أين أنت"){
+    reply = "Ana min Natal , Brazil";
+  }else if (objeto == "كيف حالك"){
     tempo();
     feel();
     reply = feeling;
   } else {
-    reply = "ماذا قلت؟--------------";
+    reply = "...";
   }
   }
 
@@ -81,8 +81,8 @@ function tempo() {
   }
 function feel(){
   if(hours < 18){
-    feeling = "I am not in a good mood";
+    feeling = "Ana mish behayr";
   } else {
-    feeling = "i am feeling good, thank you";
+    feeling = "Shukran, Ana behayr!";
   }
 }
