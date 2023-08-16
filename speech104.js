@@ -52,7 +52,7 @@ function recognize(){
   if (objeto == "مرحبا"){
       reply = "-------- " + "اهلا";
   } else if (objeto == "ما اسمك") {
-      reply = "anā kāsāndarā, althakāʾu aliāṣṭināʿiyyu alshakhṣiyyu li Eniwaldu";
+      reply = "anā Menat, althakāʾu aliāṣṭināʿiyyu alshakhṣiyyu li Eniwaldu";
   } else if (objeto == "what time is it"){
       tempo();
       reply = "it is " +  hours + " hours and " + minutes+" minutes"; 
@@ -60,6 +60,7 @@ function recognize(){
       reply = "today is " + dia + " of " + mes + " of " + ano;
   } else if (objeto == "من أين أنت"){
     reply = "Ana min Natal , Brazil";
+    createP("أنا من ناتال، البرازيل");
   }else if (objeto == "كيف حالك"){
     tempo();
     feel();
