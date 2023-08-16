@@ -18,6 +18,7 @@
     console.log(lang);
     //p5.Speech(listVoices());
     createP("نسخة 082025");
+    let mood = Math.rand(-1,1);
 } //setup
   
 function mouseClicked() {
@@ -50,7 +51,7 @@ function mouseClicked() {
   }
 function recognize(){
   if (objeto == "مرحبا"){
-      reply = "AHLAN";
+      reply = "Ach lan";
       createP("اهلا");
   } else if (objeto == "مااسمك") {
       reply = "aismi manati. 'ana aldhaka' alaistinaeiu limuhamad eabaas aljabaar";
@@ -84,9 +85,9 @@ function tempo() {
   console.log(dia , mes, ano);
   }
 function feel(){
-  if(hours < 18){
-    feeling = "Ana mish behayyr";
+  if(mood < 0){
+    feeling = "Ana mish bee ha yr";
   } else {
-    feeling = "Shukran, Ana behayyr!";
+    feeling = "Shukran, Ana bee ha yr!";
   }
 }
