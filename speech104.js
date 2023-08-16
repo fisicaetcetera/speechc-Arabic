@@ -68,7 +68,7 @@ function recognize(){
     reply = feeling;
   } else {
     reply = "";
-    createP("أنا لا أفهم")
+    createP("")
   }
   }
 
@@ -84,8 +84,8 @@ function tempo() {
   }
 function feel(){
   if(hours < 18){
-    feeling = "Ana mish behayr";
+    feeling = "Ana mish behayyr";
   } else {
-    feeling = "Shukran, Ana behayr!";
+    feeling = "Shukran, Ana behayyr!";
   }
 }
