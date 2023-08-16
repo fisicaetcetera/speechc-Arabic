@@ -16,7 +16,7 @@
   lang = 'ar-LB';
     createP(lang);
     console.log(lang);
-    p5.Speech(listVoices());
+    //p5.Speech(listVoices());
     createP("version 08161556");
 } //setup
   
