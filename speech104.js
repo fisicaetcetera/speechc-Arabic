@@ -6,7 +6,7 @@
   let continuous = false;
   let voice;
   let reply;
-  let myName = "Menat";
+  let myName = "Menaat";
   let dia, mes, ano;
   let hours, minutes, seconds;
   let feeling;
@@ -53,7 +53,8 @@ function recognize(){
       reply = "AHLAN";
       createP("اهلا");
   } else if (objeto == "مااسمك") {
-      reply = "anā Menat, althakāʾu aliāṣṭināʿiyyu alshakhṣiyyu li Eniwaldu";
+      reply = "aismi manati. 'ana aldhaka' alaistinaeiu limuhamad eabaas aljabaar";
+     createP("اسمي مناتي. أنا الذكاء الاصطناعي لمحمد عباس الجبار");
   } else if (objeto == "what time is it"){
       tempo();
       reply = "it is " +  hours + " hours and " + minutes+" minutes"; 
