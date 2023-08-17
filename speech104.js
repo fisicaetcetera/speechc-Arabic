@@ -18,7 +18,7 @@
     console.log(lang);
     //p5.Speech(listVoices());
     createP("نسخة 082025");
-    let mood = Math.rand(-1,1);
+    let mood = Math.random(-1,1);
 } //setup
   
 function mouseClicked() {
