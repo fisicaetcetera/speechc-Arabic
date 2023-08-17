@@ -10,6 +10,7 @@
   let dia, mes, ano;
   let hours, minutes, seconds;
   let feeling;
+  let mood;
   
   function setup() {
   noCanvas();
@@ -18,7 +19,7 @@
     console.log(lang);
     //p5.Speech(listVoices());
     createP("نسخة 082025");
-    let mood = Math.random(-1,1);
+    mood = Math.random(-1,1);
 } //setup
   
 function mouseClicked() {
