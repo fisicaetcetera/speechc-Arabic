@@ -34,6 +34,7 @@ function mouseClicked() {
     createP(objeto);
      recognize();
     voice.speak(reply);
+    createP(confidence);
     //createP(reply);
     //console.log("mod 1916")
     console.log(reply);
