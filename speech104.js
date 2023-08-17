@@ -62,10 +62,9 @@ function recognize(){
   } else if (objeto == "what day is it"){
       reply = "today is " + dia + " of " + mes + " of " + ano;
   } else if (objeto == "من اين انت"){
-    reply = "Ana min Natal , Brazil";
+    reply = "Ana min Nat al , Bra ziil";
     createP("أنا من ناتال، البرازيل");
   }else if (objeto == "كيف حالك"){
-    tempo();
     feel();
     reply = feeling;
   } else {
