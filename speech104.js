@@ -26,7 +26,7 @@
   
 function mouseClicked() {
   speechRec = new p5.SpeechRec(lang, gotSpeech);
-  speechRec.setVoice(ar-XA-Standard-A);
+  speechRec.setVoice(Standard-A);
   speechRec.start(continuous);
   //voice = new p5.Speech(ar-XA-Standard-A);
 }
