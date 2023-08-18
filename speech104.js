@@ -14,7 +14,8 @@
   
   function setup() {
   noCanvas();
-  lang = 'ar-LB';
+  //lang = 'ar-XA-Standard-A';
+    lang = "ar-XA";
     createP(lang);
     console.log(lang);
     //p5.Speech(listVoices());
