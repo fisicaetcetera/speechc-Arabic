@@ -19,7 +19,7 @@
     createP(lang);
     console.log(lang);
     //p5.Speech(listVoices());
-    createP("نسخة 082025");
+    createP("نسخة 08172111");
     mood = Math.random(-1,1);
 } //setup
   
@@ -54,7 +54,7 @@ function mouseClicked() {
   }
 function recognize(){
   if (objeto == "مرحبا"){
-      reply = "Ach lan";
+      reply = "اهلا";
       createP("اهلا");
   } else if (objeto == "مااسمك") {
       reply = "aismi manati. 'ana aldhaka' alaistinaeiu limuhamad eabaas aljabaar";
