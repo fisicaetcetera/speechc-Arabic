@@ -16,6 +16,7 @@
   noCanvas();
   //lang = 'ar-XA-Standard-A';
     lang = "ar-XA";
+    p5.Speech
     createP(lang);
     console.log(lang);
     //p5.Speech(listVoices());
@@ -25,8 +26,9 @@
   
 function mouseClicked() {
   speechRec = new p5.SpeechRec(lang, gotSpeech);
+  speechRec.setVoice(ar-XA-Standard-A);
   speechRec.start(continuous);
-  voice = new p5.Speech();
+  //voice = new p5.Speech(ar-XA-Standard-A);
 }
   function gotSpeech() {
      console.log(speechRec);
